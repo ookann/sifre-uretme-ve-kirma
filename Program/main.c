@@ -7,7 +7,7 @@ char sifre_olustur()
 	int i=0,j=0,rastgele=0;
 	char sifre[5];
 	char karakterler[] = {'0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f','g','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','y','z'};
-	srand(time(NULL)); //Her çalıştırıldığında aynı rastgele değer olmaması için bu komut kullanılır.
+	srand(time(NULL)); //Her Ã§alÄ±ÅŸtÄ±rÄ±ldÄ±ÄŸÄ±nda aynÄ± rastgele deÄŸer olmamasÄ± iÃ§in bu komut kullanÄ±lÄ±r.
 	for ( i ; i < 5; i++ )
 	{
 		rastgele = rand()%34;
